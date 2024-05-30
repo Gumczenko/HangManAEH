@@ -1,69 +1,73 @@
-**1. Gra w wisielca**
+# Gra w wisielca
 
-**Spis Treści**
-1. Wprowadzenie
-2. Lista Funkcjonalności
-3. Instrukcja Obsługi
-4. Wymagania Systemowe
+## Spis Treści
+1. [Wprowadzenie](#wprowadzenie)
+2. [Lista Funkcjonalności](#lista-funkcjonalności)
+3. [Instrukcja Obsługi](#instrukcja-obsługi)
+4. [Wymagania Systemowe](#wymagania-systemowe)
 
- GRA W WISIELCA
+---
 
- 1. **Wprowadzenie**
-   
+## 1. Wprowadzenie
+
 Gra w wisielca to klasyczna gra słowna, w której celem jest odgadnięcie ukrytego słowa poprzez podawanie liter. Program ten jest implementacją gry w języku Java z użyciem interfejsu graficznego (Swing).
 
+---
 
- 2. **Lista Funkcjonalności**
-   
-Losowanie słowa:
-Gra losuje słowo z przygotowanej listy słów na początku każdej gry.
+## 2. Lista Funkcjonalności
 
-Ustawianie poziomu trudności:
-Gracz może wybrać jeden z trzech poziomów trudności (łatwy, średni, trudny), co wpływa na liczbę dostępnych prób.
+- **Losowanie słowa**:
+  - Gra losuje słowo z przygotowanej listy słów na początku każdej gry.
 
-Interfejs użytkownika:
-Gra posiada graficzny interfejs użytkownika z polami tekstowymi, przyciskami i etykietami informującymi o postępie gry.
+- **Ustawianie poziomu trudności**:
+  - Gracz może wybrać jeden z trzech poziomów trudności (łatwy, średni, trudny), co wpływa na liczbę dostępnych prób.
 
-Wprowadzanie liter:
-Gracz może wprowadzać litery za pomocą pola tekstowego. Program sprawdza, czy litera już była używana i czy jest poprawna.
+- **Interfejs użytkownika**:
+  - Gra posiada graficzny interfejs użytkownika z polami tekstowymi, przyciskami i etykietami informującymi o postępie gry.
 
-Wyświetlanie zgadywanego słowa:
-Gra wyświetla aktualny stan zgadywanego słowa, używając podkreśleń dla niezgadniętych liter.
+- **Wprowadzanie liter**:
+  - Gracz może wprowadzać litery za pomocą pola tekstowego. Program sprawdza, czy litera już była używana i czy jest poprawna.
 
-Historia zgadywanych liter:
-Program prowadzi historię zgadywanych liter i wyświetla ją w panelu bocznym.
+- **Wyświetlanie zgadywanego słowa**:
+  - Gra wyświetla aktualny stan zgadywanego słowa, używając podkreśleń dla niezgadniętych liter.
 
-Licznik pozostałych prób:
-Wyświetlana jest liczba pozostałych prób.
+- **Historia zgadywanych liter**:
+  - Program prowadzi historię zgadywanych liter i wyświetla ją w panelu bocznym.
 
-Zapisywanie i ładowanie historii gry:
-Program zapisuje i ładuje historię wygranych i przegranych gier do/z pliku game_history.txt.
+- **Licznik pozostałych prób**:
+  - Wyświetlana jest liczba pozostałych prób.
 
-Zakończenie gry i ponowna gra:
-Po zakończeniu gry (wygranej lub przegranej) program pyta, czy gracz chce zagrać ponownie.
+- **Zapisywanie i ładowanie historii gry**:
+  - Program zapisuje i ładuje historię wygranych i przegranych gier do/z pliku `game_history.txt`.
 
-Dostosowanie wyglądu:
-Elementy interfejsu użytkownika mają dostosowane kolory i czcionki dla lepszej czytelności.
+- **Zakończenie gry i ponowna gra**:
+  - Po zakończeniu gry (wygranej lub przegranej) program pyta, czy gracz chce zagrać ponownie.
 
- 3. **Instrukcja Obsługi**
+- **Dostosowanie wyglądu**:
+  - Elementy interfejsu użytkownika mają dostosowane kolory i czcionki dla lepszej czytelności.
 
-Uruchomienie gry:
-Po uruchomieniu programu zostaniesz poproszony o wybranie poziomu trudności (łatwy, średni, trudny).
+---
 
-Wprowadzenie litery:
-Wprowadź literę w polu tekstowym i naciśnij przycisk "Zatwierdź" lub wciśnij klawisz "Enter". Litery mogą być wprowadzane tylko pojedynczo.
+## 3. Instrukcja Obsługi
 
-Historia liter:
-Użyte litery będą wyświetlane w panelu "Użyte litery".
+- **Uruchomienie gry**:
+  - Po uruchomieniu programu zostaniesz poproszony o wybranie poziomu trudności (łatwy, średni, trudny).
 
-Koniec gry:
-Gra kończy się, gdy odgadniesz całe słowo lub gdy skończą się próby. Po zakończeniu gry zostaniesz zapytany, czy chcesz zagrać ponownie.
+- **Wprowadzenie litery**:
+  - Wprowadź literę w polu tekstowym i naciśnij przycisk "Zatwierdź" lub wciśnij klawisz "Enter". Litery mogą być wprowadzane tylko pojedynczo.
 
-Zamknięcie gry:
-Zamknij program, klikając na przycisk zamykania okna. Historia gier zostanie automatycznie zapisana.
+- **Historia liter**:
+  - Użyte litery będą wyświetlane w panelu "Użyte litery".
 
- 4. **Wymagania Systemowe**
+- **Koniec gry**:
+  - Gra kończy się, gdy odgadniesz całe słowo lub gdy skończą się próby. Po zakończeniu gry zostaniesz zapytany, czy chcesz zagrać ponownie.
 
-   
-Java Development Kit (JDK) w wersji 8 lub nowszej
-System operacyjny: Windows, macOS, Linux
+- **Zamknięcie gry**:
+  - Zamknij program, klikając na przycisk zamykania okna. Historia gier zostanie automatycznie zapisana.
+
+---
+
+## 4. Wymagania Systemowe
+
+- Java Development Kit (JDK) w wersji 8 lub nowszej
+- System operacyjny: Windows, macOS, Linux
