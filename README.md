@@ -1,10 +1,10 @@
 # Gra w wisielca
 
 ## Spis Treści
-1. [Wprowadzenie](#wprowadzenie)
-2. [Lista Funkcjonalności](#lista-funkcjonalności)
-3. [Instrukcja Obsługi](#instrukcja-obsługi)
-4. [Wymagania Systemowe](#wymagania-systemowe)
+1. [Wprowadzenie]
+2. [Lista Funkcjonalności]
+3. [Instrukcja Obsługi]
+4. [Wymagania Systemowe]
 
 ---
 
