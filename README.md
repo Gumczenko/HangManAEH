@@ -7,13 +7,13 @@
 4. Wymagania Systemowe
 
  
-.
-1. **Wprowadzenie**
+
+ 1. **Wprowadzenie**
    
 Gra w wisielca to klasyczna gra słowna, w której celem jest odgadnięcie ukrytego słowa poprzez podawanie liter. Program ten jest implementacją gry w języku Java z użyciem interfejsu graficznego (Swing).
 
 
-2. **Lista Funkcjonalności**
+ 2. **Lista Funkcjonalności**
    
 Losowanie słowa:
 Gra losuje słowo z przygotowanej listy słów na początku każdej gry.
@@ -45,7 +45,7 @@ Po zakończeniu gry (wygranej lub przegranej) program pyta, czy gracz chce zagra
 Dostosowanie wyglądu:
 Elementy interfejsu użytkownika mają dostosowane kolory i czcionki dla lepszej czytelności.
 
-3. **Instrukcja Obsługi**
+ 3. **Instrukcja Obsługi**
 
 Uruchomienie gry:
 Po uruchomieniu programu zostaniesz poproszony o wybranie poziomu trudności (łatwy, średni, trudny).
@@ -62,7 +62,7 @@ Gra kończy się, gdy odgadniesz całe słowo lub gdy skończą się próby. Po 
 Zamknięcie gry:
 Zamknij program, klikając na przycisk zamykania okna. Historia gier zostanie automatycznie zapisana.
 
-4. **Wymagania Systemowe**
+ 4. **Wymagania Systemowe**
 
    
 Java Development Kit (JDK) w wersji 8 lub nowszej
