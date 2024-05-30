@@ -63,5 +63,7 @@ Zamknięcie gry:
 Zamknij program, klikając na przycisk zamykania okna. Historia gier zostanie automatycznie zapisana.
 
 4. **Wymagania Systemowe**
+
+   
 Java Development Kit (JDK) w wersji 8 lub nowszej
 System operacyjny: Windows, macOS, Linux
