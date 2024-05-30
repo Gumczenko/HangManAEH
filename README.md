@@ -14,6 +14,7 @@ Gra w wisielca to klasyczna gra słowna, w której celem jest odgadnięcie ukryt
 
 
 2. **Lista Funkcjonalności**
+   
 Losowanie słowa:
 Gra losuje słowo z przygotowanej listy słów na początku każdej gry.
 
